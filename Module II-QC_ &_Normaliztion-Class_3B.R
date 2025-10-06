@@ -345,7 +345,7 @@ eset_filt <- eset_norm[keep, ]
 
 # Now count remaining transcripts
 transcripts_remaining <- nrow(exprs(eset_filt))
-cat("✅ Transcripts remaining after filtering:", transcripts_remaining, "\n")
+cat("Transcripts remaining after filtering:", transcripts_remaining, "\n")
 
 
 # Submission Instructions:
